@@ -1,6 +1,6 @@
 """Hourly ERA5 weather at a few points in Germany, 1991 onwards, from the Open-Meteo archive API.
 
-The points are the subset of the 1-degree grid of github.com/michaelserikov/de-weather-to-power
+The points are the subset of the 1-degree grid of github.com/serikov-power-markets/de-weather-to-power
 whose weights in the non-negative weather-to-power regressions were largest: the 10 onshore wind
 points and 8 solar points with the most learnt capacity (6 of the solar points are new) and the 4
 offshore clusters that carry the offshore fit. On the 2025-26 holdout of that project, this subset

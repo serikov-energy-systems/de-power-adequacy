@@ -1,6 +1,6 @@
 """Weather to national wind and solar capacity factors.
 
-Physical point features as in github.com/michaelserikov/de-weather-to-power: wind at hub height
+Physical point features as in github.com/serikov-power-markets/de-weather-to-power: wind at hub height
 from the 100 m wind and the local shear through a generic power curve, and PV output from
 irradiance with a cell-temperature correction. A non-negative linear regression on these
 features (one weight per point) maps them to the national capacity factor of today's fleet.
